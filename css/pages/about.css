@@ -1,0 +1,139 @@
+/* Content */
+
+.content {
+  float: left;
+  width: 700px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+
+/* About */
+
+.about {
+  background: url('../../img/background.jpg');
+  width: 879px;
+  height: 354px;
+}
+
+.about__title {
+  line-height: 354px;
+  padding-left: 65px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 49px;
+  font-weight: bold;
+}
+
+
+/* Features*/
+
+.features {
+  padding-top: 24px;
+  line-height: 1.66;
+  font-size: 18px;
+}
+
+.features p {
+  margin-bottom: 11px;
+  margin-top: 0;
+}
+
+.features h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.features ul {
+  padding: 10px 0px 10px 0;
+
+}
+
+.features li {
+  text-indent: -1.2em;
+  padding-left: 39px;
+}
+
+.features li:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.features li::before {
+  content: "• ";
+  color: #ec1e79;
+  padding-right: 5px;
+}
+
+
+/* Description*/
+
+.description {
+  background-color: #27273e;
+  color: white;
+  padding: 14px 30px 11px 30px;
+  margin-top: 23px;
+  line-height: 1.67;
+}
+
+.description p {
+  margin: 0;
+}
+
+.description__sale {
+  color: #ec1e79;
+  font-weight: bold; 
+}
+
+
+/* Partners*/
+
+.partners {
+ padding-top: 10px; 
+}
+
+.partners__list {
+  padding: 0;
+  margin-bottom: 14px;
+}
+
+.partners__title {
+  font-size: 49px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.partners__item {
+  display: inline-block;
+  width: 32.7%;
+  padding-bottom: 49px;
+  vertical-align: middle;
+  text-align: left;  
+}
+
+.partners__item-center {
+  text-align: center;
+}
+
+.partners__item-right {
+  text-align: center;
+  width: 32.7%;
+  padding-left: 74px;
+}
+
+.greyscale {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .5s ease-in-out;
+  filter: grayscale(100%);
+  transition: .5s ease-in-out; 
+}
+
+.partners__link:hover>img{
+  -webkit-filter: initial;
+  filter: initial;
+  opacity: 1;
+}

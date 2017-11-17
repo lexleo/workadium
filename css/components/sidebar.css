@@ -1,0 +1,135 @@
+/*Sidebar*/
+
+.sidebar {
+  width: 180px;
+  float: left;
+}
+
+.menu__list {
+  margin-top: 40px;
+  padding-right: 10px;
+}
+
+.menu__item {
+  margin: 0 0 26px 0;
+}
+
+.menu__ico {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu__text {
+  color: #ec1e79;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 5px;
+  vertical-align: top;
+  max-width: 125px;
+  transition: color .5s;
+  -webkit-transition: color .5s;
+  -moz-transition: color .5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+}
+
+.menu__link {
+  text-decoration: none;
+}
+
+.menu__ico {
+  background-image: url("../../img/icons/menu-sprite.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 5px;
+  transition: filter .5s;
+  -webkit-transition: -webkit-filter .5s;
+  -moz-transition: -moz-filter .5s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+}
+
+.menu__ico-main {
+  width: 17px;
+  height: 15px;
+  background-position: -51px -10px;
+  margin-right: 16px;
+}
+
+.menu__ico-wallet {
+  width: 19px;
+  height: 16px;
+  background-position: -88px -10px;
+  margin-right: 14px;
+}
+
+.menu__ico-feed {
+  width: 21px;
+  height: 19px;
+  background-position: -10px -10px;
+  margin-right: 13px;
+  margin-top: 3px;
+}
+
+.menu__link:hover .menu__ico-main {
+  -webkit-filter: grayscale(100%) contrast(160%) saturate(3);
+  -moz-filter: grayscale(100%) contrast(160%) saturate(3);
+  filter: grayscale(100%) contrast(160%) saturate(3);
+}
+
+.menu__item_active .menu__ico-main {
+  transition: initial;
+  -webkit-transition: initial;
+  -moz-transition: initial;  
+  -webkit-filter: grayscale(100%) contrast(160%) saturate(3);
+  -moz-filter: grayscale(100%) contrast(160%) saturate(3);
+  filter: grayscale(100%) contrast(160%) saturate(3);
+}
+
+.menu__link:hover .menu__ico-wallet {
+  -webkit-filter: grayscale(100%) contrast(160%) saturate(3);
+  -moz-filter: grayscale(100%) contrast(160%) saturate(3);
+  filter: grayscale(100%) contrast(160%) saturate(3);
+}
+
+.menu__item_active .menu__ico-wallet {
+  transition: initial;
+  -webkit-transition: initial;
+  -moz-transition: initial;  
+  -webkit-filter: grayscale(100%) contrast(160%) saturate(3);
+  -moz-filter: grayscale(100%) contrast(160%) saturate(3);
+  filter: grayscale(100%) contrast(160%) saturate(3);
+}
+
+.menu__link:hover .menu__ico-feed {
+  -webkit-filter: grayscale(100%) contrast(160%) saturate(3);
+  -moz-filter: grayscale(100%) contrast(160%) saturate(3);
+  filter: grayscale(100%) contrast(160%) saturate(3);
+}
+
+.menu__item_active .menu__ico-feed {
+  transition: initial;
+  -webkit-transition: initial;
+  -moz-transition: initial;
+  -webkit-filter: grayscale(100%) contrast(160%) saturate(3);
+  -moz-filter: grayscale(100%) contrast(160%) saturate(3);
+  filter: grayscale(100%) contrast(160%) saturate(3);
+}
+
+.menu__link:hover .menu__text {
+  color: #221f1f;
+}
+
+.menu__item_active .menu__text {
+  -webkit-transition: inital;
+  -moz-transition: inital;
+  transition: inital;
+  color: #221f1f;
+}

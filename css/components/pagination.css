@@ -1,0 +1,63 @@
+/*Pagination*/
+
+.pagination {
+  font-size: 14px;
+  padding: 5px 0 0 211px;
+  margin-bottom: 68px;
+}
+
+.pagination__one-of {
+  padding-right: 9px;
+  vertical-align: middle;
+}
+
+.pagination__shift {
+  display: inline-block;
+  vertical-align: middle;
+  width: 6px;
+  height: 10px;
+  background: url("../../img/icons/arrow_right.png") 50% 50% no-repeat;
+  padding: 10px 14px 10px 13px;
+}
+
+.pagination__shift-prev {
+  -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.pagination__shift_disabled {
+  opacity: .5;
+}
+
+.pagination__page {
+  display: inline-block;
+  width: 20px;
+  height: 25px;
+  font-weight: bold;
+  vertical-align: middle;
+  text-align: center;
+  color: #221f1f;
+  transition: .4s;     
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+}
+
+.pagination__page_active {
+  background-color: #27273e;
+  border-radius: 3px;
+  color: #ec1e79;
+  width: 25px;
+}
+
+.pagination__page:hover:not(.pagination__page_active) {
+  background-color: #ddd;
+  border-radius: 3px;
+}
+
+.pagination__page-link {
+  display: inline-block;
+  padding-top: 3px;
+  text-decoration: none;
+  color: inherit;
+}

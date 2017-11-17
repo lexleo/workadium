@@ -1,0 +1,32 @@
+/*Site path*/
+
+.site-path {
+  margin-top: 40px;
+}
+
+.site-path__item {
+  font-size: 14px;
+  font-style: italic;
+  color: #ec1e79;
+  opacity: .8;
+}
+
+.site-path__item:after {
+  display: inline-block;
+  content: "/";
+  text-decoration: none;
+  color: black;
+  padding-left: 5px;
+}
+
+.site-path__item_active {
+  color: black;
+}
+
+.site-path__item_active:after {
+  display: none;
+}
+
+.site-path__item:hover {
+  opacity: 1;
+}

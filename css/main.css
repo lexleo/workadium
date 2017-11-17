@@ -1,0 +1,27 @@
+/* Layout */
+
+@import "layout/normalize.min.css";
+@import "layout/fonts.css";
+@import "layout/base.css";
+
+
+/* Components */
+
+@import "components/header.css";
+@import "components/sidebar.css";
+@import "components/footer.css";
+@import "components/site-path.css";
+@import "components/pagination.css";
+
+
+/* Pages content */
+
+@import "pages/intro.css";
+@import "pages/about.css";
+@import "pages/reviews.css";
+@import "pages/prices.css";
+
+
+
+
+

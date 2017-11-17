@@ -1,0 +1,154 @@
+/*Footer*/
+
+.footer {
+  background-color: #27273e;
+  color: #fff;
+  height: 77px;
+  margin: -77px auto;
+  min-width: 1100px;
+}
+
+.footer__link {
+  display: block;
+}
+
+.signature {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+}
+
+.signature__text {
+  font-size: 14px;
+  padding: 11px 65px 15px 0px;
+  height: 48px;
+  line-height: 1.29;
+}
+
+.signature__school,
+.signature__school:visited {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid #5D5D6F;
+}
+
+.footer-logo {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 33%;
+  height: 77px;
+}
+
+.footer-logo__img {
+  margin-top: 14px;
+  width: 99px;
+  height: 51px;
+}
+
+.social {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  text-align: right;
+}
+
+.social__content {
+  display: inline-block;
+  font-size: 14px;
+  text-align: left;
+  padding: 18px 0 0 0;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: bold;
+}
+
+.social__list {
+  padding: 9px 0 0 0;
+}
+
+.social__item {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin-right: 3px;
+}
+
+.social__ico {
+  width: 20px;
+  height: 20px;
+  opacity: .8;
+  display: inline-block;
+}
+
+.social__ico {
+  background-image: url("../../img/icons/social-sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  filter: hue-rotate(50deg) grayscale(100%) brightness(25);
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;  
+}
+
+.social__facebook {
+  width: 20px;
+  height: 20px;
+  background-position: -10px -10px;
+
+}
+
+.social__google-plus {
+  width: 20px;
+  height: 20px;
+  background-position: -50px -10px;
+}
+
+.social__mail {
+  width: 20px;
+  height: 20px;
+  background-position: -90px -10px;
+}
+
+.social__twitter {
+  width: 20px;
+  height: 20px;
+  background-position: -130px -10px;
+}
+
+.social__vk {
+  width: 20px;
+  height: 20px;
+  background-position: -170px -10px;
+}
+
+.social__link:hover .social__vk {
+  filter: initial;
+  -webkit-filter: initial;
+  -moz-filter: initial;
+}
+
+.social__link:hover .social__facebook {
+  filter: initial;
+  -webkit-filter: initial;
+  -moz-filter: initial;
+}
+
+.social__link:hover .social__twitter {
+  filter: initial;
+  -webkit-filter: initial;
+  -moz-filter: initial;
+}
+
+.social__link:hover .social__mail {
+  filter: initial;
+  -webkit-filter: initial;
+  -moz-filter: initial;
+}
+
+.social__link:hover .social__google-plus {
+  filter: initial;
+  -webkit-filter: initial;
+  -moz-filter: initial;
+}
