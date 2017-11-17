@@ -1,2 +1,2 @@
 # workadium
-«Basic markup» LoftSchool course project. Static.
+«Basic markup» LoftSchool course project. Static markup.
